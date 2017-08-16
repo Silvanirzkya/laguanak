@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lagu_joshua"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="dasi.com.laguanak.LaguJoshua">
+
+    <TextView
+        android:text="              Klik Lagu Favorite Mu :"
+        android:textSize="10pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:id="@+id/tul"
+        android:text="Tul Jaenak"
+        android:textSize="10pt"
+        android:background="@drawable/button2"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/balon"
+        android:layout_alignLeft="@+id/kapal"
+        android:layout_alignStart="@+id/kapal" />
+
+    <Button
+        android:id="@+id/balon"
+        android:text="Balonku"
+        android:textSize="10pt"
+        android:background="@drawable/button2"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/tul"
+        android:layout_alignStart="@+id/tul" />
+
+    <Button
+        android:id="@+id/kapal"
+        android:text="Kapal Terbang"
+        android:textSize="10pt"
+        android:background="@drawable/button2"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/tul"
+        android:layout_alignLeft="@+id/cit"
+        android:layout_alignStart="@+id/cit" />
+
+    <Button
+        android:id="@+id/cit"
+        android:text="Cit-Cit Cuit"
+        android:textSize="10pt"
+        android:background="@drawable/button2"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/kapal"
+        android:layout_alignLeft="@+id/air"
+        android:layout_alignStart="@+id/air" />
+
+    <Button
+        android:id="@+id/air"
+        android:text="Air (di Obok-Obok)"
+        android:textSize="10pt"
+        android:background="@drawable/button2"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/cit"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
